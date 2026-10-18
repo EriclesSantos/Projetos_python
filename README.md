@@ -1,23 +1,40 @@
-<h2>Demonstração das Saidas dos Codigos:</h2>  
-################ Sistema Banco ################
-<img width="469" height="824" alt="Sistema_Banco" src="https://github.com/user-attachments/assets/eec32a84-364d-4a47-ac32-cd3826f5be7b" />
+# Python · Exercícios de lógica e automação de terminal
 
-<p>############## Renegociação ########</p>  
-<img width="737" height="155" alt="Renegociação" src="https://github.com/user-attachments/assets/bacd0e93-fb5f-40e6-9870-bd3ad56c3c85" />
-<p>############# Plano Assinatura #############</p>  
-<img width="678" height="178" alt="PlanoAssinatura" src="https://github.com/user-attachments/assets/c2d78666-9739-45ad-a8c2-2f0cbb0e43e6" />
-<p>############# Frequencia de Batimentos ##############</p>  
-<img width="450" height="115" alt="FrequenciaCardiaca" src="https://github.com/user-attachments/assets/04989d1e-1c6f-4bc8-8db6-01219b7c72fc" />
-<p>############# Calorias Diarias #################</p>  
-<img width="719" height="142" alt="Calorias Diarias" src="https://github.com/user-attachments/assets/95560b10-b8e9-4e65-863a-d80cd7c50f7c" />
-<p>############## Investimentos ###############</p>
-<img width="739" height="230" alt="Investimentos" src="https://github.com/user-attachments/assets/a4ad2879-d401-465b-b64b-bd6a470519a0" />
-<p>############## Sistema Juros ###############</p>  
-<img width="946" height="339" alt="SistemaJurosCarro" src="https://github.com/user-attachments/assets/2ff8b2f6-01ae-4ca2-a712-f5f622d1621d" />
-<p>############### Votação Live ###############</p>  
-<img width="602" height="829" alt="votaçaoLive" src="https://github.com/user-attachments/assets/b2be03d0-29ce-4b60-a98f-27bc466e01d5" />
-<p>############### Validação Usuario ############</p>  
-<img width="939" height="183" alt="Validação usuario senha" src="https://github.com/user-attachments/assets/6eac05ea-fe70-4700-a53d-fdb7f5128985" />
+Coleção de programas em Python 3 que transformam enunciados acadêmicos em rotinas interativas. Os exemplos trabalham com condicionais, laços, listas, acumulação de valores e formatação de saída.
 
+**Tipo:** estudos de programação · **Interface:** terminal · **Dependências:** biblioteca padrão do Python.
 
+## Projetos incluídos
 
+| Arquivo | O que demonstra |
+|---|---|
+| [Sistema_Caixa_Eletronico.py](Sistema_Caixa_Eletronico.py) | Menu com depósito, saque, limite de saques e consulta de saldo em memória. |
+| [Sistema_Votacao_Live.py](Sistema_Votacao_Live.py) | Coleta de votos para dias da semana, contagem e identificação de empates. |
+| [Renegociacao.py](Renegociacao.py) | Tabela de parcelas e juros conforme valores definidos no exercício. |
+| [SistemaParcelaJuros.py](SistemaParcelaJuros.py) | Comparação didática de compra à vista e parcelada. |
+| [Plano_Assinatura.py](Plano_Assinatura.py) | Seleção de plano e cálculo de bônus por categoria. |
+| [Investimentos.py](Investimentos.py) | Uso de condicionais em um cenário didático de resgate de investimento. |
+| [Calorias_Ingeridas_Diarias.py](Calorias_Ingeridas_Diarias.py) | Soma de valores informados em uma sequência de entradas. |
+| [Verificar_batimentos_cardiacos.py](Verificar_batimentos_cardiacos.py) | Exercício de faixas e comparações com idade e valores de entrada. |
+| [Validar_Usuario_Senha.py](Validar_Usuario_Senha.py) | Comparação de texto com valores fixos em um exemplo de validação. |
+
+## Demonstração
+
+Saída real do caixa eletrônico com dados didáticos: saldo inicial de R$ 200, depósito de R$ 100, saque de R$ 50 e consulta de saldo. A imagem é uma visualização da saída capturada, preparada para leitura na documentação.
+
+![Execução local do caixa eletrônico em Python](docs/assets/caixa-eletronico.png)
+
+## Executar
+
+Instale Python 3 e abra o terminal na pasta do repositório. Não é necessário instalar pacotes adicionais.
+
+```sh
+python Sistema_Caixa_Eletronico.py
+python Sistema_Votacao_Live.py
+```
+
+Execute um arquivo por vez e responda às perguntas do terminal. Em ambientes que usam `python3`, substitua o nome do comando.
+
+## Escopo dos exercícios
+
+São implementações acadêmicas com regras simplificadas e sem persistência. O arquivo de caixa eletrônico mantém um texto de movimentações internamente, mas a opção de extrato atualmente exibe o saldo. Os exemplos financeiros e de saúde não são aplicações para decisões reais; as regras desses enunciados e a validação de entradas ainda precisam de revisão. A validação de usuário com valores fixos é um exercício de comparação, sem autenticação segura.
